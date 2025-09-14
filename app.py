@@ -173,7 +173,7 @@ html_code = """
        RSVP
     </a>
 
-    <div class="respond">by September 23th!!!</div>
+    <div class="respond">by September 23rd!!!</div>
   </div>
 </body>
 </html>
