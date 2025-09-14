@@ -1,8 +1,18 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-# Set Streamlit page to wide layout
-st.set_page_config(page_title="Birthday Invitation", layout="wide")
+# Set Streamlit page configuration (only once, at the top)
+st.set_page_config(
+    page_title="Birthday Invitation",
+    page_icon="🎉",
+    layout="wide",
+    initial_sidebar_state="expanded",
+    menu_items={
+        'Get Help': None,
+        'Report a bug': None,
+        'About': None
+    }
+)
 
 # HTML content as a string
 html_code = """
@@ -163,11 +173,11 @@ html_code = """
        RSVP
     </a>
 
-    <div class="respond">by September 20th!!!</div>
+    <div class="respond">by September 23th!!!</div>
   </div>
 </body>
 </html>
 """
 
-# Render in Streamlit with a reasonable height
+# Render HTML inside Streamlit
 components.html(html_code, height=900, scrolling=False)
