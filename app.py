@@ -146,7 +146,7 @@ html_code = """
     
     <div class="line"></div>
     <div class="details">
-    <br> September 28, 2025 at Noon
+      <br> September 28, 2025 at Noon
     </div>
 
     <div class="address">
@@ -156,8 +156,12 @@ html_code = """
       </a>
     </div>
     <div class="line"></div>
-    <div class="message">Join us as we surprise Raj with laugther, love, and memories to last a lifetime.</div>
-    <a href="https://docs.google.com/forms/d/1oTxv2tut3US9gsxCQbJtDHWnh5AoI-etlJ2WkLiwWQ4/viewform?edit_requested=true" class="rsvp">RSVP</a>
+    <div class="message">Join us as we surprise Raj with laughter, love, and memories to last a lifetime.</div>
+    
+    <a href="https://docs.google.com/forms/d/1oTxv2tut3US9gsxCQbJtDHWnh5AoI-etlJ2WkLiwWQ4/viewform?edit_requested=true" 
+       class="rsvp" target="_blank">
+       RSVP
+    </a>
 
     <div class="respond">by September 20th!!!</div>
   </div>
